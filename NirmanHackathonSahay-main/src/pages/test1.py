@@ -18,7 +18,7 @@ CORS(app)
 
 # Configure Gemini API
 try:
-    genai.configure(api_key='AIzaSyCZV3PQOv5J3hl4SyVqHAl8KNjNmEyv6cY')  # Replace with your Gemini API key
+    genai.configure(api_key='Replace with your Gemini API key')  # Replace with your Gemini API key
     model = genai.GenerativeModel('gemini-1.5-pro')
 except Exception as e:
     logger.error(f"Failed to configure Gemini API: {str(e)}")
